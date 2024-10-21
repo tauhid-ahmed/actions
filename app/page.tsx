@@ -1,4 +1,5 @@
 import Heading from "./components/heading";
+import Button from "./components/button";
 
 export default function Homepage() {
   return (
@@ -9,6 +10,7 @@ export default function Homepage() {
       <Heading as="h2" size="3xl">
         Heading 2
       </Heading>
+      <Button>Primary</Button>
     </div>
   );
 }
